@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Start 404 page */
+.div1 p{
+    color: hsla(251, 81%, 45%, 0.781);
+    position: absolute;
+    left:400px;
+    top:200px;
+    font-size:50px;
+    font-family: Franklin Gothic Medium;
+}
+.div2{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+}
+.div2 p{
+    font-size: 50px;
+    font-family: Franklin Gothic Medium;
+}
+.div2 .p{
+    font-size:15px;
+    font-family:Bahnschrift SemiBold;
+    color:	#ccc8c8;
+}
+.div3{
+    position: absolute;
+    left:550px;
+    top:300px;
+}
+.bt .btn{
+    position: absolute;
+    left:700px;
+    top:300px;
+    border:1px solid  #DCDCDC;
+    border-radius: 10px;
+    background-color: #DCDCDC;
+    color: rgba(8, 8, 112, 0.705);
+    padding: 8px;
+    
+    
+}
+.div3 .btn{
+    background-color: hsla(251, 81%, 45%, 0.781);
+    border:1px solid;
+    border-radius:10px;
+    color: white;
+    padding: 8px;
+
+}
+.div2 {
+    padding-top: 100px;
+}
+/* end 404 page  */
+
+/* second page start */
+
+.div4{
+    position: absolute;
+    left:400px;
+    top:500px;
+    font-size:50px;
+    font-family: Franklin Gothic Medium;
+
+}
+.div4 .p1{
+     padding-left: 110px;
+}
+.div5 .bt1{
+    position: absolute;
+    left:500px;
+    top:650px;
+    background-color:#0000f3f3;
+    border:1px solid;
+    border-radius:10px;
+    color: white;
+    font-size: 15px;
+    font-family:Franklin Gothic Medium;
+    height: 50px;
+    width: 150px;
+}
+.div6 .bt2{
+    position: absolute;
+    left:700px;
+    top:650px;
+    background-color:white;
+    border:1px solid rgba(163, 160, 160, 0.5);
+    border-radius:10px;
+    color:black;
+    font-size: 15px;
+    font-family:Franklin Gothic Medium;
+    height: 50px;
+    width: 150px;
+}
+ 
+/* second page end */
+/* start thirs page */
+.div7 h1{
+    position: absolute;
+    left:100px;
+    top:800px;
+    font-family:Bahnschrift SemiBold;
+    font-size: 40px;
+}
+.div7{
+    display: flex;
+} 
+.div8{
+    flex: 2;
+     
+}
+.div8 h1{
+    margin-left: 100px;
+}
+.div9 a{
+    text-decoration: none;
+    font-size:15px;
+    padding: 20px;
+    color: black;
+      
+}
+.div9{
+    margin-left: 300px;
+    padding-top: 820px;
+    flex:8; 
+}
+.div10{
+    position: absolute;
+    right:100px;
+    top: 820px;
+}
+.div11{
+    display: flex;
+}
+.img{
+    margin-left: 100px;
+}
+.div12{
+    flex: 5;
+}
+    
+.div12 .h1{
+    padding-top: 100px;
+    padding-left: 180px;
+    font-size: 50px;
+}
+.div12 .h2{
+        padding-left: 180px;
+        font-size: 50px;
+}
+.div13{
+    flex: 5;
+    padding-top: 100px;
+    padding-right: 50px;
+  
+}
+.div14{
+    color: black;
+    font-size: 50px;
+    padding-left: 180px;
+    position: absolute;
+    top: 1075px;
+}
+.div15{
+    padding-left: 180px;
+    padding-top: 20px;
+}
+.div15 p{
+    background-color: #e6e4e4;
+    border: 1px solid  #e6e4e4;
+    border-radius: 5px;
+    color: rgb(73, 72, 72);
+    height: 45px;
+    width: 400px;
+     /* padding-left: 40px; */
+     padding-top: 10px;
+     font-size: 20px;
+    
+}
+.div15 .address{
+    padding-left: 40px;
+}
+.div15 .join{
+    position: absolute;
+    right: 780px;
+    top: 1267px;
+    height: 40px;
+    width:100px;
+    padding-left: 20px;
+    background-color: blue;
+    color: white;
+     
+     
+    
+     
+}
+     
+/* endthirs page */
