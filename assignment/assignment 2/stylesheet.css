@@ -197,5 +197,17 @@
     
      
 }
+span{
+    color: black;
+    font-size: 20px;
+}
      
 /* endthirs page */
+/* .button{
+    
+    height: 50px;
+    background-color: aqua;
+} */
+div.contact{
+    color: red;
+}
