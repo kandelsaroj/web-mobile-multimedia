@@ -4,6 +4,10 @@
     padding: 0;
 }
 /* Start 404 page */
+.main{
+    border: 2px solid blue;
+
+}
 .div1 p{
     color: hsla(251, 81%, 45%, 0.781);
     position: absolute;
@@ -34,12 +38,13 @@
 .bt .btn{
     position: absolute;
     left:700px;
-    top:300px;
+    top:290px;
     border:1px solid  #DCDCDC;
     border-radius: 10px;
     background-color: #DCDCDC;
     color: rgba(8, 8, 112, 0.705);
     padding: 8px;
+    text-decoration: none;
     
     
 }
@@ -49,6 +54,7 @@
     border-radius:10px;
     color: white;
     padding: 8px;
+    text-decoration: none;
 
 }
 .div2 {
@@ -60,40 +66,55 @@
 
 .div4{
     position: absolute;
-    left:400px;
-    top:500px;
-    font-size:50px;
-    font-family: Franklin Gothic Medium;
+    left:465px;
+    top:250px;
+    
+   
 
 }
-.div4 .p1{
-     padding-left: 110px;
+.div4 h1{
+    font-size:40px;
+    font-family: Franklin Gothic Medium;
+    
 }
-.div5 .bt1{
+.div4 .p1{
+    padding-left: 100px;
+     
+}
+/* .div4 .p1{
+     padding-left: 110px;
+} */
+.div5 a{
     position: absolute;
     left:500px;
-    top:650px;
+    top:360px;
     background-color:#0000f3f3;
     border:1px solid;
     border-radius:10px;
     color: white;
     font-size: 15px;
     font-family:Franklin Gothic Medium;
-    height: 50px;
-    width: 150px;
+    height: 30px;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
 }
-.div6 .bt2{
+.div6 a{
     position: absolute;
-    left:700px;
-    top:650px;
+    left:650px;
+    top:360px;
     background-color:white;
     border:1px solid rgba(163, 160, 160, 0.5);
     border-radius:10px;
     color:black;
     font-size: 15px;
     font-family:Franklin Gothic Medium;
-    height: 50px;
-    width: 150px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
 }
  
 /* second page end */
@@ -101,7 +122,7 @@
 .div7 h1{
     position: absolute;
     left:100px;
-    top:800px;
+    top:150px;
     font-family:Bahnschrift SemiBold;
     font-size: 40px;
 }
@@ -120,17 +141,29 @@
     font-size:15px;
     padding: 20px;
     color: black;
+    
       
 }
 .div9{
     margin-left: 300px;
-    padding-top: 820px;
+    padding-top: 150px;
     flex:8; 
 }
-.div10{
+ 
+.div10 a{
     position: absolute;
     right:100px;
-    top: 820px;
+    top: 150px;
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+    border: 1px solid;
+    border-radius: 2px;
+    width: 95px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Monospace;
+    font-size: 15px;
 }
 .div11{
     display: flex;
@@ -162,7 +195,7 @@
     font-size: 50px;
     padding-left: 180px;
     position: absolute;
-    top: 1075px;
+    top: 400px;
 }
 .div15{
     padding-left: 180px;
@@ -183,31 +216,113 @@
 .div15 .address{
     padding-left: 40px;
 }
-.div15 .join{
+.div15 a{
     position: absolute;
     right: 780px;
-    top: 1267px;
-    height: 40px;
-    width:100px;
+    top: 602px;
+    height: 30px;
+    width:90px;
     padding-left: 20px;
-    background-color: blue;
+    background-color: rgb(50, 97, 226);
     color: white;
-     
-     
-    
-     
+    text-decoration: none;
+    border: 1px solid  #e6e4e4;
+    border-radius: 5px;
+    padding-top: 5px; 
+}
+.div14 .icn{
+    color:black ;
 }
 span{
-    color: black;
     font-size: 20px;
 }
      
-/* endthirs page */
-/* .button{
-    
-    height: 50px;
-    background-color: aqua;
-} */
-div.contact{
-    color: red;
+/* endthird page */
+/* Start navbar section */
+.main2{
+    position: absolute;
+    top: 200px;
+    left: 150px;
 }
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+}
+.flex{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.nav{
+    flex: 5;
+}
+.nav .flow{
+    font-family:Franklin Gothic Medium;
+    font-size: 15px;
+    color:black;
+
+}
+.nav .dashboard{
+    font-family: Bahnschrift SemiBold;
+    font-size: 13px;
+    color: rgba(19, 18, 18, 0.884);
+     
+     
+}
+.nav .section{
+    font-family: Bahnschrift SemiBold;
+    font-size: 11px;
+    color: rgba(19, 18, 18, 0.644);
+}
+.nav .hr{
+    width: 70px;
+    margin-left: 125px;
+    position: absolute;
+    top: 70px;
+    border: 1px solid rgba(41, 41, 221, 0.5);
+
+}
+
+.img1{
+    flex: 5;
+}
+.flex2{
+    display: flex;
+    margin-right: 150px;
+}
+.search{
+    flex: 5;
+    margin-right: 200px;
+    
+}
+ 
+.box{
+    background-color:	#e0dede70;
+    height: 150px;
+    width: 1100px;
+     
+    margin-top: 15px; 
+}
+.search1{
+    padding-left: 20px;
+    position: absolute;
+    left: 650px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.836);
+}
+#icon{
+     position: absolute;
+     top:30px;
+     left: 655px;
+} 
+.img2{
+     position: absolute;
+     top: 7px;
+     left: 975px;
+}
+
+/* End navbar section */
